@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0D0D0D;
+}
+
+
+/*configuaração do menu */
+
+
+header{
+    height: 55px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: #D9BC66;
+}
+
+nav > h1{
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.link{
+    text-decoration: none;
+    color: #D9BC66;
+    padding-left: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#menuIcon{
+    font-size: 50px;
+    display: none;
+}
+
+#menuIcon:hover{
+    cursor: pointer;
+    background-color: #3F3D40;
+}
+
+
+
+/*configuração do conteudo */
+
+
+main{
+    margin: auto;
+    height: 750px;
+    width: 1400px;
+    padding-top: 20px;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.logo_vinicius{
+    height: 650px;
+    width: 700px;
+}
+
+.sobre > h1, p {
+    color: #D8D9CC;
+}
+
+.sobre > h1{
+    font-size: 30px;
+}
+
+.sobre > p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+
+/*design responsivo*/
+
+
+@media (max-width: 950px) {
+    body{
+        display: block;
+    }
+
+    /*configuaração do menu */
+
+    #menu{
+        position: absolute;
+        background-color: #D8D9CC20;;
+        backdrop-filter: blur(10px);
+        top: 6vh;
+        right: 0;
+        width: 35vw;
+        height: 15vh;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-around;
+        margin: 15px;
+        border-radius: 05%;
+    }
+
+
+    .link{
+        text-align: center;
+        font-size: 20px;
+        padding: 0;
+    }
+    nav > h1{
+        font-size: 25px;
+    }
+
+    #menuIcon{
+        display: block;
+    }
+
+
+
+    /*configuração do conteudo */
+
+    main{
+        margin: auto;
+        height: 360px;
+        width: 45vh;
+    }
+
+    #sobre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin: 15px;
+        padding: 15px;
+        padding-top: 20px;
+    }
+
+    .logo_vinicius{
+        text-align: center;
+        height: 350px;
+        width: 44vh;
+    }
+
+    .sobre > h1{
+        font-size: 25px;
+    }
+    
+    .sobre > p{
+        text-align: justify;
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href=".\style.css" rel="stylesheet">
+    <title>Vinicius Melo</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <h1>Vinicius Melo</h1>
+                <span class="material-icons" id="menuIcon" onclick="openMenu()">menu</span>
+                <ul id="menu">
+                    <li><a href="#" class="link">Home</a></li>
+                    <li><a href="#" class="link">Contatos</a></li>
+                    <li><a href="#" class="link">Projetos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="sobre">
+                    <img class="logo_vinicius" src="logo_viniciusmelodev.jpeg" alt="logo_viniciusmelodev">
+                <div class="sobre">
+                    <h1>Sobre</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, earum repudiandae, voluptates delectus odio voluptas aspernatur natus dignissimos omnis, quidem rem provident placeat autem reprehenderit. Natus laborum maiores numquam cum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores vero commodi ducimus eius, ab sit molestiae labore nisi animi ratione consectetur, hic aspernatur. Quae tempora qui temporibus ex enim?</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script>
+        function openMenu() {
+    if (menu.style.display == 'flex'){
+        menu.style.display = 'none'
+    } else {
+        menu.style.display = 'flex'
+        
+    }
+}
+    </script>
+</body>
+</html>
