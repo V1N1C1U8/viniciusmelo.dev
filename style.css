@@ -119,7 +119,8 @@ main{
         align-content: center;
         justify-content: space-around;
         margin: 15px;
-        border-radius: 05%;
+        border-radius: 5%;
+        display: none;
     }
 
 
