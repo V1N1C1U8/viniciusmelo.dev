@@ -188,7 +188,11 @@ main{
         height: 350px;
         width: 44vh;
     }
-
+    
+    .sobre{
+        margin: 0px;
+    }
+    
     .sobre > h1{
         font-size: 25px;
     }
