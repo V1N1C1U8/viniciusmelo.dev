@@ -191,15 +191,15 @@ main{
     }
     
     .sobre{
-        margin: 0px;
+        margin: 5px;
     }
     
     .sobre > h1{
-        font-size: 20px;
+        font-size: 25px;
     }
     
     .sobre > p{
-        font-size: 10px;
+        font-size: 15px;
     }
 
 }
