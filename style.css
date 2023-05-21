@@ -136,12 +136,6 @@ main{
 
     /*configuaração do menu */
     
-    .mini_logo{
-        width: 140px;
-        height: 40px;
-        padding-left: 5px;
-    }
-    
     #menu{
         position: absolute;
         background-color: #a3f3f110;;
