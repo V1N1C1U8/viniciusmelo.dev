@@ -135,7 +135,13 @@ main{
     }
 
     /*configuaração do menu */
-
+    
+    .mini_logo{
+        width: 140px;
+        height: 30px;
+        padding-left: 5px;
+    }
+    
     #menu{
         position: absolute;
         background-color: #D8D9CC20;;
@@ -188,8 +194,8 @@ main{
 
     .logo_vinicius{
         text-align: center;
-        height: 350px;
-        width: 40vh;
+        height: 300px;
+        width: 35vh;
     }
     
     .sobre{
@@ -197,11 +203,11 @@ main{
     }
     
     .sobre > h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .sobre > p{
-        font-size: 15px;
+        font-size: 10px;
     }
 
 }
