@@ -54,7 +54,6 @@ nav{
     align-items: center;
     justify-content: space-around;
     border-radius: 5%;
-    display: none;
 }
 
 .link{
@@ -144,7 +143,7 @@ main{
     
     #menu{
         position: absolute;
-        background-color: #D8D9CC20;;
+        background-color: #a3f3f110;;
         backdrop-filter: blur(10px);
         top: 6vh;
         right: 0;
@@ -153,11 +152,9 @@ main{
         flex-direction: column;
         align-content: center;
         justify-content: space-around;
-        margin: 15px;
         border-radius: 5%;
         display: none;
     }
-
 
     .link{
         text-align: center;
