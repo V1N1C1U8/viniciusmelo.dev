@@ -12,6 +12,9 @@ body{
     background-color: #0D0D0D;
 }
 
+#container{
+    width: 1340px;
+}
 
 /*configuaração do menu */
 
@@ -25,33 +28,46 @@ nav{
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 15px;
-    color: #D9BC66;
+    color: #a3f3f1;
 }
 
-nav > h1{
-    font-size: 30px;
-    padding-left: 15px;
+.mini_logo{
+    width: 150px;
+    height: 45px;
+    padding-left: 10px;
 }
 
 #menu{
+    display: none;
     list-style: none;
-    display: flex;
+    display: flex;    
+    position: absolute;
+    background-color: #a3f3f110;;
+    backdrop-filter: blur(10px);
+    top: 11vh;
+    right: 1.8vw;
+    width: 10vw;
+    height: 20vh;
+    flex-direction: column;
+    align-content: center;
     align-items: center;
-    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5%;
+    display: none;
 }
 
 .link{
     text-decoration: none;
-    color: #D9BC66;
-    padding-left: 15px;
+    color: #a3f3f1;
     font-size: 25px;
     text-align: center;
 }
 
 #menuIcon{
     font-size: 50px;
-    display: none;
+    display: block;
 }
 
 #menuIcon:hover{
@@ -66,8 +82,8 @@ nav > h1{
 
 main{
     margin: auto;
-    height: 750px;
-    width: 1400px;
+    height: 600px;
+    width: 1180px;
     padding-top: 20px;
 }
 
@@ -75,25 +91,35 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    align-content: center;
+    align-content: space-between;
 }
 
 .logo_vinicius{
-    height: 650px;
-    width: 700px;
+    height: 500px;
+    width: 530px;
 }
 
-.sobre > h1, p {
-    color: #D8D9CC;
+.sobre{
+    width: 450px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre > strong{
+    font-size: 25px;
 }
 
 .sobre > h1{
-    font-size: 30px;
+    color: #a3f3f1;
+    font-size: 40px;
 }
-
-.sobre > p{
-    text-align: justify;
-    font-size: 25px;
+    
+.sobre > p {
+    color: #D8D9CC;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 
