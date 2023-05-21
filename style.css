@@ -130,6 +130,10 @@ main{
     body{
         display: block;
     }
+    
+    #container{
+    width: 0px;
+    }
 
     /*configuaração do menu */
 
