@@ -141,7 +141,7 @@ main{
         background-color: #D8D9CC20;;
         backdrop-filter: blur(10px);
         top: 6vh;
-        right: 1.8vw;
+        right: 0;
         width: 35vw;
         height: 15vh;
         flex-direction: column;
