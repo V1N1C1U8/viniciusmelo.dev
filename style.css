@@ -183,13 +183,13 @@ main{
 
     .logo_vinicius{
         text-align: center;
-        height: 200px;
+        height: 250px;
         width: 250px;
     }
     
     .sobre{
         margin: 5px;
-        width: 380px;
+        width: 350px;
     }
     
     .sobre > h1{
