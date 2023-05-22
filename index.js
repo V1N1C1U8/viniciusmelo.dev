@@ -11,18 +11,3 @@ function openMenu() {
 }
 
 
-let dark = {
-	backgroundColor: "#0D0D0D",
-}
-
-let white = {
-	backgroundColor: "#ffffff",
-}
-
-function alteraTema(){
-	if (container.style.backgroundColor == "#0D0D0D") {
-		Object.assign(container.style, white);
-	}else{
-		Object.assign(container.style, dark);
-	}
-}
