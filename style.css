@@ -107,10 +107,6 @@ main{
     gap: 10px;
 }
 
-.sobre > strong{
-    font-size: 25px;
-}
-
 .sobre > h1{
     color: #a3f3f1;
     font-size: 40px;
@@ -141,8 +137,8 @@ main{
         position: absolute;
         background-color: #a3f3f110;;
         backdrop-filter: blur(10px);
-        top: 6vh;
-        right: 0;
+        top: 8vh;
+        right: 2vw;
         width: 35vw;
         height: 15vh;
         flex-direction: column;
@@ -193,6 +189,7 @@ main{
     
     .sobre{
         margin: 5px;
+        width: 380px;
     }
     
     .sobre > h1{
