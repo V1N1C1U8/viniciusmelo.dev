@@ -46,8 +46,8 @@ nav{
     position: absolute;
     background-color: #a3f3f110;;
     backdrop-filter: blur(10px);
-    top: 8vh;
-    right: 4vw;
+    top: 10vh;
+    right: 6vw;
     width: 10vw;
     height: 20vh;
     flex-direction: column;
